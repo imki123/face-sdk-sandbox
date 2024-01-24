@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+select,
+button,
+legend {
+  font-size: 20px;
+}
+
+fieldset {
+  width: fit-content;
+}
