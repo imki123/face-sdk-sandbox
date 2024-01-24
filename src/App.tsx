@@ -1,7 +1,7 @@
 import { Face, FaceConfig } from "@haechi-labs/face-sdk";
 import { Network, Env } from "@haechi-labs/face-types";
 import { useEffect, useState } from "react";
-import { IFRAME_URL } from "./utils/utils";
+import { IFRAME_URL } from "./utils";
 import { ethers, providers, utils } from "ethers";
 
 export function App() {
@@ -12,7 +12,7 @@ export function App() {
   const [env, setEnv] = useState<Env>(defaultEnv);
   const [apiKey, setApiKey] = useState(configs[env].apiKey);
 
-  const faceConfig: FaceConfig & { iframeUrl?: string; env: Env } = {
+  const faceConfig: FaceConfig & { iframeUrl?: string; env?: Env } = {
     apiKey,
     network,
     notificationOptions: undefined,
