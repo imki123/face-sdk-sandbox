@@ -17,6 +17,9 @@ dependencies:
   '@haechi-labs/face-types':
     specifier: ^1.12.5
     version: 1.12.5(ethers@5.7.2)
+  ethers:
+    specifier: ^5.7.2
+    version: 5.7.2
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1320,7 +1323,7 @@ packages:
   /@types/connect@3.4.38:
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.11.5
     dev: false
 
   /@types/estree@1.0.5:
@@ -1387,7 +1390,7 @@ packages:
   /@types/ws@7.4.7:
     resolution: {integrity: sha512-JQbbmxZTZehdc2iszGKs5oC3NFnjeay7mtAWrdt7qNtAVK0g19muApzAy4bm9byz79xa2ZnO/BOBC2R8RC5Lww==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.11.5
     dev: false
 
   /@typescript-eslint/eslint-plugin@6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.3.3):

@@ -830,3 +830,12 @@ export function isMainnet(network: Network) {
   }
   return false;
 }
+
+export const IFRAME_URL = {
+  Local: "http://localhost:3333",
+  Dev: "https://app.dev.facewallet.xyz",
+  StageTestnet: "https://app.stage-test.facewallet.xyz",
+  StageMainnet: "https://app.stage.facewallet.xyz",
+  ProdTestnet: "https://app.test.facewallet.xyz",
+  ProdMainnet: "https://app.facewallet.xyz",
+};
